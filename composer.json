@@ -13,9 +13,6 @@
 		"facebook/php-sdk": "*"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "NaApri\\FacebookL4": "src/"
         }
