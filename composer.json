@@ -1,0 +1,24 @@
+{
+    "name": "na-apri/facebook-l4",
+    "description": "",
+    "authors": [
+        {
+            "name": "na-apri",
+            "email": "na.apri@live.jp"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.0.x",
+		"facebook/php-sdk": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "NaApri\\FacebookL4": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
